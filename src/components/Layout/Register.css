@@ -1,0 +1,86 @@
+/* CSS Styles */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  h1:hover{
+    transform: scale(1.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #phone{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  #banner{
+    width: 100%;
+    height: 150px;
+    box-sizing: content-box;	
+  }
+
+#banner:hover{
+    transform: scale(1.1);
+}
+
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+  font-weight: 300 !important;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);	
+  }
+  h1{
+    color: white;
+    padding: 25px;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+  }
+  a{
+    color: #ccc;
+    cursor: pointer;
+  }
